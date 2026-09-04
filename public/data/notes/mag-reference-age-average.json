@@ -1,0 +1,1 @@
+{"title":"研究笔记","sourceKeys":["MAG 各学科linksout的论文的平均寿命_chart_1"],"markdown":"## 方法与解读\n\n计算方法：选择2000年的数学的论文，总共有N个linksout论文，这N个论文都有自己的发表年份Yn，avg_age=[sum(Yn-2000)]/N\n\n观察论文是比较喜欢引用最近的还是较早的论文。\n\n学科的平均引用寿命  or 引用时间距离"}

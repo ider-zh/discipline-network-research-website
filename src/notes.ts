@@ -1,0 +1,36 @@
+const chartNoteIds = new Set([
+  "wikipedia-network-profile",
+  "wikipedia-degree-entropy",
+  "wikipedia-structural-entropy",
+  "mag-subject-entropy",
+  "mag-citation-network",
+  "mag-disruption-structure",
+  "mag-disruption-trend",
+  "mag-node-edge",
+  "mag-citation-half-life",
+  "mag-article-totals",
+  "mag-author-statistics",
+  "wikipedia-self-citation",
+  "wikipedia-core-scale",
+  "wm-network-scale",
+  "mag-top-cited-papers",
+  "mag-reference-age",
+  "wikipedia-global-evolution",
+  "wikipedia-article-length",
+  "wikipedia-words-links",
+  "wikipedia-reference-patterns",
+  "degree-distributions",
+  "mag-degree-exponent",
+  "mag-discipline-citation-flow",
+  "discipline-dependency",
+  "mag-small-world",
+  "wikipedia-directed-distance",
+  "mag-distance-bubbles",
+  "mag-distance-network",
+  "mag-self-citation-ranking",
+  "mag-reference-age-average",
+]);
+
+export function chartHasNote(path: string): boolean {
+  return chartNoteIds.has(path.split("/").filter(Boolean).at(-1) ?? "");
+}

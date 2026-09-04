@@ -1,0 +1,160 @@
+{
+  "generatedAt": "2026-09-04T03:02:36.494Z",
+  "notes": [
+    {
+      "file": "degree-distributions.json",
+      "bytes": 566,
+      "sha256": "121da391a9902d199313d2af611e63053662958649e1523cd583891ea3ab49bc"
+    },
+    {
+      "file": "discipline-dependency.json",
+      "bytes": 648,
+      "sha256": "84cae1bb79163dbc7cfa1e292f863f83a807b2eea12aba7a1d9d7edaed55055b"
+    },
+    {
+      "file": "home.json",
+      "bytes": 24459,
+      "sha256": "3b3f6773d13266c3e6530518ce15ff9a65ccf4d8736d2ccdaa4cd7ec8f2fbdb2"
+    },
+    {
+      "file": "mag-article-totals.json",
+      "bytes": 248,
+      "sha256": "d11d62325073166a861c8bec7b5054f9c19a645497d724839b790d523e62c3b4"
+    },
+    {
+      "file": "mag-author-statistics.json",
+      "bytes": 168,
+      "sha256": "868afb2e5f3582bdf84ad98f5c5bc055d717b2c4ab0f007130e7098d5acc5002"
+    },
+    {
+      "file": "mag-citation-half-life.json",
+      "bytes": 216,
+      "sha256": "3db4f50a1ee03b221d02f006e2c4f29327adf45a21d803430d34d2c3df126158"
+    },
+    {
+      "file": "mag-citation-network.json",
+      "bytes": 129,
+      "sha256": "d5e387ae6cc441ff82fdcdee32f73914a604db2d46af22838d5ba6599bb6d615"
+    },
+    {
+      "file": "mag-degree-exponent.json",
+      "bytes": 133,
+      "sha256": "1b62a1a44fcd24ebe49a942f10e1b09f99b93865add2fd31c57bbf58730234b3"
+    },
+    {
+      "file": "mag-discipline-citation-flow.json",
+      "bytes": 496,
+      "sha256": "cce40deaffedced658f30901a4efa7697342ee509c0522f8a2a41f5656c37abb"
+    },
+    {
+      "file": "mag-disruption-structure.json",
+      "bytes": 673,
+      "sha256": "b6d6373ccc0ef64344695cb89c2155f0b2e79f8cce80ce1a80f2d0f291aa3e8d"
+    },
+    {
+      "file": "mag-disruption-trend.json",
+      "bytes": 936,
+      "sha256": "c7b0e0d8c7e0a6060524e4ab2ce7676416f22a971e53891ff3b4fef2ceaaa3a4"
+    },
+    {
+      "file": "mag-distance-bubbles.json",
+      "bytes": 310,
+      "sha256": "3dd41b4de7bffc6e60a985cfd41ba7db968def85421889158571282939f5fd71"
+    },
+    {
+      "file": "mag-distance-network.json",
+      "bytes": 511,
+      "sha256": "03baf1c0392a26e1d5fc585bcf5049b2e9b62a56ccccd80db556b2e5897a829d"
+    },
+    {
+      "file": "mag-node-edge.json",
+      "bytes": 179,
+      "sha256": "c7d162fee085006645e297d0d4cf6136c5e6cb835ed676a4b3e43b7a82482edc"
+    },
+    {
+      "file": "mag-reference-age-average.json",
+      "bytes": 404,
+      "sha256": "21114e988c92dd7ae34166f7380f75a0930aaf01dbbad0cf3a2635e6fabee30b"
+    },
+    {
+      "file": "mag-reference-age.json",
+      "bytes": 176,
+      "sha256": "a5ed2ee99d7a78d025da6b3ebae35b0d00abe41061d99eb2243b3f9fe52a1902"
+    },
+    {
+      "file": "mag-self-citation-ranking.json",
+      "bytes": 253,
+      "sha256": "a8d3a89385bca38ae92296f2e555e36285ad9f18f51b89e0278d78c739c70890"
+    },
+    {
+      "file": "mag-small-world.json",
+      "bytes": 407,
+      "sha256": "2533bae35e69482b6c3bb2fd546269b8fc280d8d8dc7e390e9df6bb955f2da58"
+    },
+    {
+      "file": "mag-subject-entropy.json",
+      "bytes": 153,
+      "sha256": "bec8b4b630a09ca6b4f9a3a3a4b2b977808ad8f248b126316d61d376d63a370b"
+    },
+    {
+      "file": "mag-top-cited-papers.json",
+      "bytes": 242,
+      "sha256": "71f9998e65514d0cb65875212a84c355e395b65fb6357b0f06463f9ebee87b30"
+    },
+    {
+      "file": "wikipedia-article-length.json",
+      "bytes": 488,
+      "sha256": "43d57f9a727f6818fc976ac4b35292ec49edd861994ae29329af30cbacf35101"
+    },
+    {
+      "file": "wikipedia-core-scale.json",
+      "bytes": 127,
+      "sha256": "49819bcd3c3d69e04405d45d98211b036cb29c461f487811ebc6654cdfad1ce1"
+    },
+    {
+      "file": "wikipedia-degree-entropy.json",
+      "bytes": 1477,
+      "sha256": "2157a1d7909fdb6e6ea617398fd50496a8764943ce4daa6a2548be6c9ce3ba9b"
+    },
+    {
+      "file": "wikipedia-directed-distance.json",
+      "bytes": 278,
+      "sha256": "50c2be8776f5e2795ddbeda386a1cde1d0d402a210fc88d395422d8c23bc3a22"
+    },
+    {
+      "file": "wikipedia-global-evolution.json",
+      "bytes": 182,
+      "sha256": "5999a25482ef9affaa8c132b2aae2d9cbf30791706aaafa2b180c9628f9e3677"
+    },
+    {
+      "file": "wikipedia-network-profile.json",
+      "bytes": 368,
+      "sha256": "46f8b79d7664deea736eab5d5b21be3de8d8c7e02d9405102e3c5d58a144f500"
+    },
+    {
+      "file": "wikipedia-reference-patterns.json",
+      "bytes": 525,
+      "sha256": "c266da057c89bbcbe112b70b4c6bf0e4e4de2dc45e88f8399d09afab861f0c31"
+    },
+    {
+      "file": "wikipedia-self-citation.json",
+      "bytes": 417,
+      "sha256": "c0329e22bcf1d6db8b3b3945e42ab71a695278f00da2c3b5a64212a8241fb994"
+    },
+    {
+      "file": "wikipedia-structural-entropy.json",
+      "bytes": 12808,
+      "sha256": "4f66867b14cb811bb1ac017d2842912feaaa6825f45732866ab00f182a8c1f44"
+    },
+    {
+      "file": "wikipedia-words-links.json",
+      "bytes": 525,
+      "sha256": "c266da057c89bbcbe112b70b4c6bf0e4e4de2dc45e88f8399d09afab861f0c31"
+    },
+    {
+      "file": "wm-network-scale.json",
+      "bytes": 159,
+      "sha256": "a838f076d26e2bd70be74b1f232e7d9415765d59428f7fe7a2ba353ea55cfa89"
+    }
+  ]
+}

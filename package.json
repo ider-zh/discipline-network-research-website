@@ -1,0 +1,48 @@
+{
+  "name": "discipline-network-research-website",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "build": "vue-tsc -b && vite build",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "data:sync": "node scripts/sync-data.mjs",
+    "data:sync-apigo": "node scripts/sync-apigo-snapshots.mjs",
+    "data:import-upstream": "node scripts/import-upstream-static.mjs",
+    "data:sync-series": "node scripts/sync-series-snapshots.mjs",
+    "data:sync-notes": "node scripts/sync-notes.mjs"
+  },
+  "dependencies": {
+    "@vueform/multiselect": "^2.6.11",
+    "dompurify": "^3.3.0",
+    "echarts": "^6.1.0",
+    "katex": "^0.16.22",
+    "lucide-vue-next": "^0.468.0",
+    "markdown-it": "^15.0.1",
+    "markdown-it-texmath": "^1.0.0",
+    "vue": "^3.5.13",
+    "vue-echarts": "^8.2.0",
+    "vue-router": "^4.5.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/markdown-it": "^14.1.2",
+    "@types/node": "^22.10.5",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/test-utils": "^2.4.6",
+    "asciimath-parser": "^0.6.11",
+    "eslint": "^9.17.0",
+    "eslint-plugin-vue": "^9.32.0",
+    "globals": "^15.14.0",
+    "jsdom": "^25.0.1",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.19.1",
+    "vite": "^6.0.5",
+    "vitest": "^2.1.8",
+    "vue-tsc": "^2.2.0"
+  }
+}

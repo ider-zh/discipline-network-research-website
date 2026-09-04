@@ -1,0 +1,1 @@
+{"title":"研究笔记","sourceKeys":["Mag_small_world_2020_Chart"],"markdown":"## 方法论\n每个学科按照 linksin 数量排序,选取 top 节点组成的网络,然后计算其小世界参数\n### top 节点数 step 的确认方法\n\n初始按照 50 节点数, 往后每次增大 20%,直到最大值 100,000 \n\n### 万维网平均路径长度计算公式\n0.35 + 0.89 * Math.log(N), N为文章数"}

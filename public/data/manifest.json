@@ -1,0 +1,924 @@
+{
+  "generatedAt": "2026-09-04T00:28:55.020Z",
+  "datasets": [
+    {
+      "file": "data/mag-disruption-structure.json",
+      "bytes": 46984,
+      "sha256": "526375291cf614378b17e5c7bc1168c5ffded79fb7319536a84743f853a06b24",
+      "chart": "mag-disruption-structure",
+      "source": "https://raw.githubusercontent.com/iwuzhen/subject-relevance/a3b702d1feee9f0bd5c365fee717d885df19a352/src/assets/data/disruption.json",
+      "transform": "Pinned upstream static snapshot; JSON minified without value changes."
+    },
+    {
+      "file": "data/mag-network-linksin-2016.json",
+      "bytes": 54414,
+      "sha256": "5b63fff9c82d84be0a8530453fc6d053fa01fb85fd18dad518d25c8cbdfdaa10",
+      "chart": "mag-citation-network",
+      "source": "https://raw.githubusercontent.com/iwuzhen/subject-relevance/a3b702d1feee9f0bd5c365fee717d885df19a352/src/assets/data/edge_linksin_2016_v2.json",
+      "transform": "Pinned upstream static snapshot; JSON minified without value changes."
+    },
+    {
+      "file": "data/mag-network-linksin-2017.json",
+      "bytes": 54190,
+      "sha256": "e8de890ddfc4af83998d3808d5d472e972fe39e647ff80bfeda2a2d709b3d00e",
+      "chart": "mag-citation-network",
+      "source": "https://raw.githubusercontent.com/iwuzhen/subject-relevance/a3b702d1feee9f0bd5c365fee717d885df19a352/src/assets/data/edge_linksin_2017_v2.json",
+      "transform": "Pinned upstream static snapshot; JSON minified without value changes."
+    },
+    {
+      "file": "data/mag-network-linksout-2016.json",
+      "bytes": 54360,
+      "sha256": "84f956b3a79e9aaea1d69b55d1fa04a09fdbaf94aed0ef852964271ab8555b26",
+      "chart": "mag-citation-network",
+      "source": "https://raw.githubusercontent.com/iwuzhen/subject-relevance/a3b702d1feee9f0bd5c365fee717d885df19a352/src/assets/data/edge_linksout_2016_v2.json",
+      "transform": "Pinned upstream static snapshot; JSON minified without value changes."
+    },
+    {
+      "file": "data/mag-network-linksout-2017.json",
+      "bytes": 54334,
+      "sha256": "f7afe910b48a0f6a6bb550ce096cb8fd28e24a0f052c44663eee7b23e26fe55f",
+      "chart": "mag-citation-network",
+      "source": "https://raw.githubusercontent.com/iwuzhen/subject-relevance/a3b702d1feee9f0bd5c365fee717d885df19a352/src/assets/data/edge_linksout_2017_v2.json",
+      "transform": "Pinned upstream static snapshot; JSON minified without value changes."
+    },
+    {
+      "file": "data/mag-network-nodes-2016.json",
+      "bytes": 2246,
+      "sha256": "cbc798c32a9d8e47851a5c8db003bcd36dae0cf769882a0095f72e1338104fb4",
+      "chart": "mag-citation-network",
+      "source": "https://raw.githubusercontent.com/iwuzhen/subject-relevance/a3b702d1feee9f0bd5c365fee717d885df19a352/src/assets/data/node_2016_v2.json",
+      "transform": "Pinned upstream static snapshot; JSON minified without value changes."
+    },
+    {
+      "file": "data/mag-network-nodes-2017.json",
+      "bytes": 2243,
+      "sha256": "127a772a4dab8f97434193234fb4f5d96266f08f0f6a18255e077adaf40d038d",
+      "chart": "mag-citation-network",
+      "source": "https://raw.githubusercontent.com/iwuzhen/subject-relevance/a3b702d1feee9f0bd5c365fee717d885df19a352/src/assets/data/node_2017_v2.json",
+      "transform": "Pinned upstream static snapshot; JSON minified without value changes."
+    },
+    {
+      "file": "data/mag-subject-entropy.json",
+      "bytes": 142931,
+      "sha256": "1a29a509a37ce8d31e914ddf92f3141c481efd958bc5c17c0d830b3e7b803870",
+      "chart": "mag-subject-entropy",
+      "source": "https://raw.githubusercontent.com/iwuzhen/subject-relevance/a3b702d1feee9f0bd5c365fee717d885df19a352/src/assets/data/MAGSubjectEntropy.json",
+      "transform": "Pinned upstream static snapshot; JSON minified without value changes."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/anthropology.json",
+      "bytes": 6916,
+      "sha256": "1f2afc998e29bed5e43debb3bc074aa9ef0c1bb812b9c54b7fca6b71f0c61f73",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/anthropology.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/artificial_intelligence.json",
+      "bytes": 6874,
+      "sha256": "9d2ec1dc7013fc2e0b7dbf7b1065801872b2fd0aaf8ec6583d4569b323d49ab1",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/artificial_intelligence.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/biological_engineering.json",
+      "bytes": 1535,
+      "sha256": "27e0e44f54effbfc61252a454cebecbddb4a377613007fb6440a29adc6c5b09b",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/biological_engineering.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/biology.json",
+      "bytes": 6811,
+      "sha256": "9489915ac1ade5be62a9d895f3799a435cf27e67b638d6feb088abc4bdba1727",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/biology.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/blockchains.json",
+      "bytes": 773,
+      "sha256": "f667d62451d24c1247bfb4abb48c2cd78ccd69fa6407dc601ea07de248f8c9bc",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/blockchains.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/chemical_engineering.json",
+      "bytes": 6117,
+      "sha256": "3dd7c255070c3776b0aa017c98aae410ccd37f1358e0f64f4e27c769611b0e85",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/chemical_engineering.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/chemistry.json",
+      "bytes": 6792,
+      "sha256": "9c2528a69420eeb954df58e340ccf2cf6ddae375d30823329d3c721cdfc698cb",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/chemistry.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/civil_engineering.json",
+      "bytes": 5775,
+      "sha256": "dca7a7cfec9794bf784dc3c45277940e688e8a9ec731b852f8706c64839b811b",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/civil_engineering.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/cognitive_science.json",
+      "bytes": 6462,
+      "sha256": "668e7dee9e1429e03a910d9edae616a250dc16e513d54b8f3268f9235ff1703f",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/cognitive_science.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/computer_engineering.json",
+      "bytes": 4217,
+      "sha256": "1615ddd06433b3fe276fd7854dda9b0254ec80251d37bb0532e6971643000466",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/computer_engineering.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/computer_science.json",
+      "bytes": 6873,
+      "sha256": "bd21a12164243ef9f2bcd963ceaa5713acf8783a56cf79ae4e51fefa6075cf92",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/computer_science.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/deep_learning.json",
+      "bytes": 2135,
+      "sha256": "f6b5aa1ee2fe8f30f16fabb94296a4ab15284a55011c80eca1a5062989d0018c",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/deep_learning.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/economics.json",
+      "bytes": 6930,
+      "sha256": "b18520e6225510a854e733223ee644f0eecb8e3a65c4be4c56786e30b6181ca1",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/economics.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/electrical_engineering.json",
+      "bytes": 6873,
+      "sha256": "7e5bde87e2f781abb60b00ea77fb509abf1b64c4e5a4238594b79ac8fcdbea5c",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/electrical_engineering.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/engineering.json",
+      "bytes": 6902,
+      "sha256": "fd5705c59e0a947251df83abf749994010ddc222c89c91fdf56272dae903c46a",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/engineering.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/environmental_engineering.json",
+      "bytes": 6450,
+      "sha256": "baabf336de4e6f8cad6ab926e17b2e5a9bb2f100f0b4029e726ddb8fc36d0a52",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/environmental_engineering.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/environmental_science.json",
+      "bytes": 6870,
+      "sha256": "62bc8b84c29a958497396a8ef23c133514b4e56b0a35e313fe098acf1b0787c4",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/environmental_science.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/genetic_engineering.json",
+      "bytes": 2087,
+      "sha256": "dba37803e1fc8e21896afb0e1ac77626bce2c55c80ce84510fe757bf899f5817",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/genetic_engineering.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/genome_editing.json",
+      "bytes": 2371,
+      "sha256": "b83bf59e56b41054fbda3833fb91ccec9c851db872ab19af35ac7e5843e04987",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/genome_editing.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/geography.json",
+      "bytes": 6883,
+      "sha256": "799d57792b045b6d655f59246345126cd685bffb44e9947644319efafe965ca7",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/geography.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/geology.json",
+      "bytes": 6859,
+      "sha256": "6decb1dff8c223bfe979f201e48e4e3738deb17995571f4d00cda969393018c6",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/geology.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/history.json",
+      "bytes": 6937,
+      "sha256": "06fd6af857b9ccf8dbb548b586c675622a6700ce619418876ad44753ef3f2091",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/history.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/industrial_engineering.json",
+      "bytes": 4063,
+      "sha256": "6d22426a1907f139c5e480a6a483cede97d07fee6081d9c131f2ed04ef333ef5",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/industrial_engineering.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/linguistics.json",
+      "bytes": 6927,
+      "sha256": "e0753e2db156e2d75c751352fb4094f622b5f07742ecd4531fea0d9e78506df7",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/linguistics.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/literature.json",
+      "bytes": 6091,
+      "sha256": "64ccde2e3fc845f012bcf81334309828241873f53163b82223f51f18aba3cbe3",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/literature.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/machine_learning.json",
+      "bytes": 5647,
+      "sha256": "fa5c98d5029dd018ed9ca9d4528d72155226348af6ce6d0b5a342972c60c7291",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/machine_learning.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/materials_science.json",
+      "bytes": 6859,
+      "sha256": "e25bd2857f90b643c09d291773cd1e0cfd6b85204c69b644f13ac3c6b0ad65d3",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/materials_science.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/mathematics.json",
+      "bytes": 6887,
+      "sha256": "31da7c8e7b712abd0e112c493bc1847b3df6c3ff04cd4508c40847c2145a7636",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/mathematics.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/mechanical_engineering.json",
+      "bytes": 6754,
+      "sha256": "6dbff222f806b4c37d9ab0d6a5f7c3c48419b92803527432045a14017352e014",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/mechanical_engineering.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/medicine.json",
+      "bytes": 6799,
+      "sha256": "c18f0dbcade0713d3bdf11050b54f8c91208f649c2467be86644e1ff86d11852",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/medicine.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/neuroscience.json",
+      "bytes": 6793,
+      "sha256": "78bfb29caea110d73bf98b825c0b32c0c09dd000e23d51dc19e1488b108b537a",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/neuroscience.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/philosophy.json",
+      "bytes": 6887,
+      "sha256": "3de02e790e5065dfc049a7f85295d9b09e35ec79a3bc607509efd5876c4f6b96",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/philosophy.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/physics.json",
+      "bytes": 6805,
+      "sha256": "e4cadbe597cf73f1ab0c2c15f0c7d24dd5b952d4dc77fb410e676a4a7cd48eb8",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/physics.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/political_science.json",
+      "bytes": 6927,
+      "sha256": "011ef22359a445637b227559a35b9672b1f11f6e007021be0fb3b6655421fced",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/political_science.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/psychology.json",
+      "bytes": 6822,
+      "sha256": "bb5396557a81fa177da38eae084fbd1071810b5e39fcba1903d6bb91bf959e4d",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/psychology.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/quantum_computer.json",
+      "bytes": 3381,
+      "sha256": "d8848c3ae4ac0ea4d00f40f558f23e43925ea1dd31bcbcc8385c82c461e84fa9",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/quantum_computer.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/sociology.json",
+      "bytes": 6895,
+      "sha256": "645d76d64a947f2ae947bdeaa55804790e71d557f54804a25652e5c1554db1ae",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/sociology.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/degreeEntropy/theoretical_computer_science.json",
+      "bytes": 4119,
+      "sha256": "f05f6def6c658ca3acdfcdbbc959089d7b00def25569d7197ed6bbec5c8475db",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/degreeEntropy/theoretical_computer_science.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/anthropology.json",
+      "bytes": 15533,
+      "sha256": "34feaa985773d5920ee75b13de176631a805c5af64db4a273eb6c2e54a1f545b",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/anthropology.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/artificial_intelligence.json",
+      "bytes": 15884,
+      "sha256": "73b83c44ea7445c2edaaffadeabd63192f7a3b97ea5d75cb1f64ead1a5da84e2",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/artificial_intelligence.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/biology.json",
+      "bytes": 16544,
+      "sha256": "b6b87825de2a2a4b8a3fd4bbc264fdc3de621f9138fb64a4047d828f7128fddb",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/biology.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/chemistry.json",
+      "bytes": 16626,
+      "sha256": "632147ed6d7bc3f90ddf20ec51232aca8ae1d26d1e7c6a4773353d9d61950aaa",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/chemistry.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/cognitive_science.json",
+      "bytes": 15181,
+      "sha256": "cc8d3b61d5bbba8b8bf1c41722057f171fd249477a57babea2036175cfa61f5a",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/cognitive_science.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/computer_science.json",
+      "bytes": 16306,
+      "sha256": "591ff52debafbe73cd5a8362f13fbb49b0941858adc2115feac316550486299e",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/computer_science.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/economics.json",
+      "bytes": 15928,
+      "sha256": "7186a9eecf879c6b3228ca210578e3cf5b41703e4c392064a044ac0aac02e858",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/economics.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/electrical_engineering.json",
+      "bytes": 15968,
+      "sha256": "3bc22c02a0540030ef992fa32624e5ebe00537b75931cea1d7438814cea562a4",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/electrical_engineering.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/engineering.json",
+      "bytes": 16168,
+      "sha256": "7296f78b6a644bd29c19334a6263f2c2c1c33f9ecb6413ad9c9a1464dc3ba7e0",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/engineering.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/environmental_science.json",
+      "bytes": 16095,
+      "sha256": "00e6c2f7ad58b46ff6feb766d7b4319201d11ee8f6e05fb0aed50c83c4149923",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/environmental_science.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/geography.json",
+      "bytes": 16204,
+      "sha256": "0763cc276721647fa80ade4186c4c65e65359c161fd1d5fd9cd0dc85a64e245f",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/geography.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/geology.json",
+      "bytes": 16265,
+      "sha256": "515c0f6cceb75fe24e7d23d6155b49af82b9c604b8dfb242604d160736fc8b6b",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/geology.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/history.json",
+      "bytes": 16018,
+      "sha256": "3820db6fc09f17f27d61920ba1066ffdc50567b75490bcb974cf494fcb685f43",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/history.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/linguistics.json",
+      "bytes": 15945,
+      "sha256": "3acb9ce7c4f2ff0fcc65ba134e63b8d7606cb345573dfa43ab463e003f283d69",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/linguistics.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/literature.json",
+      "bytes": 14843,
+      "sha256": "8c9d9b04e5ee7f2ef36879804ef67d5d48f6a31fe6d70bb5eaa3911814fb9889",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/literature.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/materials_science.json",
+      "bytes": 16369,
+      "sha256": "3ea4d18c15a6b0cc4fbddbbcd3315994eb13dd462d3f7146075fa490d7341d5d",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/materials_science.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/mathematics.json",
+      "bytes": 16311,
+      "sha256": "4e204fdcad752a343cff351b3c6cb1b5d185b695ebb6dc5c6c9bd292926b7e47",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/mathematics.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/mechanical_engineering.json",
+      "bytes": 15739,
+      "sha256": "a4bfbe59c7a4d46deeec554d05ccc8538e1d0a1484aaa785de8228159c77436e",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/mechanical_engineering.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/medicine.json",
+      "bytes": 16607,
+      "sha256": "e6fb7d8f9565e72c62aa3056fe8a0184b6a07648da8100fd575bcfb17bb71fd4",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/medicine.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/neuroscience.json",
+      "bytes": 16037,
+      "sha256": "8b94b3c8c391c32c4235e3597e58c21f8dfc52f88f09baced1af3c538cd6df6d",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/neuroscience.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/philosophy.json",
+      "bytes": 16339,
+      "sha256": "6300d8457cb98aa6ea10398fd99e8a295ccd98b43197f00b5fba9884d5ef6a27",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/philosophy.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/physics.json",
+      "bytes": 16509,
+      "sha256": "2d49a67e75e799cd6aeb6b31a6c260a3d83ed2062e4fb64ae18155dbfe64e018",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/physics.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/political_science.json",
+      "bytes": 16139,
+      "sha256": "d6573833a72ceaae608735519fb270587adb5ef6489361755846a5b3b6b49118",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/political_science.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/psychology.json",
+      "bytes": 16258,
+      "sha256": "8224edd544b03405764f040f78ed751441908b7f4fcb336b1e7068022102303c",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/psychology.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-entropy/structEntropy/sociology.json",
+      "bytes": 15960,
+      "sha256": "7c98bf70f9daf80633d63b416b1af96e2314d2eec50a835d33ffd3ae28fc773f",
+      "chart": "openalex-entropy",
+      "source": "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/sociology.json",
+      "transform": "Legacy database-derived snapshot; values rounded in the browser to three decimals for display."
+    },
+    {
+      "file": "data/openalex-node-edge.json",
+      "bytes": 10617,
+      "sha256": "77958496038b465d9791fb53dc5e727f5681fd8126c0fb93699b47ad3d73fa9c",
+      "chart": "openalex-node-edge",
+      "source": "https://wiki.nikepai.com/api/wiki/getWikiAndMagCountByYear",
+      "transform": "Six database-backed API responses combined; only x, y, and title retained."
+    },
+    {
+      "file": "data/snapshots/degree-distributions.json",
+      "bytes": 250706,
+      "sha256": "3868caf72691064d40572cf612021c86eb31e9b93dd40cb95837eeb727a0d0ff",
+      "chart": "snapshot-degree-distributions",
+      "source": "https://wiki.nikepai.com/api/mag/getDfb_mag2020",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/discipline-dependency.json",
+      "bytes": 83797,
+      "sha256": "669ad366dd324b607679eade477a815bdca206c9b3c77a3279b2cd06181f78bd",
+      "chart": "snapshot-discipline-dependency",
+      "source": "https://wiki.nikepai.com/api/mag/getYinguoData",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/mag-article-totals.json",
+      "bytes": 17141,
+      "sha256": "e9082899efb9b030f07cac79bfc0febc2297d9d5874b1dcf5a491001ea161a5a",
+      "chart": "snapshot-mag-article-totals",
+      "source": "https://wiki.nikepai.com/api/wiki/getMasArticlesTotal_v3",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/mag-author-statistics.json",
+      "bytes": 71380,
+      "sha256": "e4f91fa55ca4a2862972ec4c506f84fef9537da3361346aa7ca34a9ba9e951d7",
+      "chart": "snapshot-mag-author-statistics",
+      "source": "https://wiki.nikepai.com/api/mag/getMagAuthorsAndArticleInfo_year_v2",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/mag-average-citations.json",
+      "bytes": 90907,
+      "sha256": "7cd45e722d0c3911265608e3be1e4919815875cdd3225e5e74fe81467df2abcb",
+      "chart": "snapshot-mag-average-citations",
+      "source": "https://wiki.nikepai.com/api/mag/getLinkTj_year_v2",
+      "transform": "Build-time API export validated for non-empty axes and series."
+    },
+    {
+      "file": "data/snapshots/mag-citation-half-life.json",
+      "bytes": 30779,
+      "sha256": "1242390b16da79cfee908371735aeef2676289a4c1c478b0bba8113c242d2584",
+      "chart": "snapshot-mag-citation-half-life",
+      "source": "https://wiki.nikepai.com/api/mag/getBanshuaiqiByYear",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/mag-degree-exponent.json",
+      "bytes": 7818,
+      "sha256": "3fd4a232db4455ec5385d9ef730eca2833f8d9c215d1dbce38f83238cbf34b9b",
+      "chart": "snapshot-mag-degree-exponent",
+      "source": "https://wiki.nikepai.com/api/mag/getDfb_mag2020",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/mag-discipline-citation-flow.json",
+      "bytes": 45834,
+      "sha256": "3d35ea28fc0a790d15ecdeb7d0c8a65376f52a51747eb21f9c98cf38cd77fdf5",
+      "chart": "snapshot-mag-discipline-citation-flow",
+      "source": "https://wiki.nikepai.com/api/mag/maglinkscf",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/mag-disruption-trend.json",
+      "bytes": 3019,
+      "sha256": "6ea6be88dfaf6222de2caf605f0abcd26043154a390dcd49e2db09a16ee8d6b7",
+      "chart": "snapshot-mag-disruption-trend",
+      "source": "https://wiki.nikepai.com/apigo/v2/mag/disruption_trend_by_year",
+      "transform": "Build-time export restricted to verified non-zero historical cache keys."
+    },
+    {
+      "file": "data/snapshots/mag-distance-bubbles.json",
+      "bytes": 34463,
+      "sha256": "7258c1b372160c0e6815d0a60181247aff64ab51b7bc6e59b7ba9928c97d701d",
+      "chart": "snapshot-mag-distance-bubbles",
+      "source": "https://wiki.nikepai.com/api/wiki/getMasDistance_v2",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/mag-distance-network.json",
+      "bytes": 32732,
+      "sha256": "ae93fba237a3b2d1f92448b2415a94a6801c78ba2653246e316a9b3d8835cc0d",
+      "chart": "snapshot-mag-distance-network",
+      "source": "https://wiki.nikepai.com/api/wiki/getMasDistance_v2",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/mag-field-count.json",
+      "bytes": 44511,
+      "sha256": "785e5e5076323810c0283b7a0d4df432aca5f1ff9394b85e2340e6462350b341",
+      "chart": "snapshot-mag-field-count",
+      "source": "https://wiki.nikepai.com/api/mag/getFosTj_year_v2",
+      "transform": "Build-time API export validated for non-empty axes and series."
+    },
+    {
+      "file": "data/snapshots/mag-node-edge.json",
+      "bytes": 19044,
+      "sha256": "c7fd813ec5534cf0f76e0ef26e260dc4a233eda53fd306b7b5b6da06d75ff1f2",
+      "chart": "snapshot-mag-node-edge",
+      "source": "https://wiki.nikepai.com/api/mag/getNodeAndEdgeThatTimeByCats",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/mag-reference-age-average.json",
+      "bytes": 14723,
+      "sha256": "019077cc7a822f176e6210512292c2f01436249bc19bee281b1203da07f2e27d",
+      "chart": "snapshot-mag-reference-age-average",
+      "source": "https://wiki.nikepai.com/api/mag/getLinksoutAvgAge",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/mag-reference-age.json",
+      "bytes": 19799,
+      "sha256": "1c8b228ea718c2e03316f7d9e192392f903009832c84acd0d32d243adddb0811",
+      "chart": "snapshot-mag-reference-age",
+      "source": "https://wiki.nikepai.com/api/mag/getPreCountByYear",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/mag-self-citation-ranking.json",
+      "bytes": 3995,
+      "sha256": "1014816dc109373f3d7883994b4a9d37f566b5825e10939acf2b9b645200a5da",
+      "chart": "snapshot-mag-self-citation-ranking",
+      "source": "https://wiki.nikepai.com/api/mag/getZldByTopN_every5000",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/mag-small-world.json",
+      "bytes": 74199,
+      "sha256": "d1f30fc08a126590d5287669a23cc9a61a3e0c74033a0cfe1a06fe66c77cd91d",
+      "chart": "snapshot-mag-small-world",
+      "source": "https://wiki.nikepai.com/api/goapi/mag/magsmallworldundirect",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/mag-top-cited-papers.json",
+      "bytes": 59749,
+      "sha256": "e98cababf348a9287800bf0a64cbb5d07e65451bea49b81803828a839aba30a2",
+      "chart": "snapshot-mag-top-cited-papers",
+      "source": "https://wiki.nikepai.com/api/mag/topNLinksinByYear",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/mag-zero-citation.json",
+      "bytes": 31268,
+      "sha256": "38a678bbb68196c575ee00f71c21c7577ff9bb6828dc70b6252a3e62427618bc",
+      "chart": "snapshot-mag-zero-citation",
+      "source": "https://wiki.nikepai.com/api/mag/tjhaslinksinByCats",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/wikipedia-article-length.json",
+      "bytes": 126114,
+      "sha256": "124ead65be91cce9472b2d44e6100536548185ec3d3f9924395815a3a9f90259",
+      "chart": "snapshot-wikipedia-article-length",
+      "source": "https://wiki.nikepai.com/api/wiki/getArtSizeDfd",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/wikipedia-category-half-life.json",
+      "bytes": 8754,
+      "sha256": "fed3b73e9ec05b2228f6fe285c8082a4aa70664abeb9eb489c874e9d11ede983",
+      "chart": "snapshot-wikipedia-category-half-life",
+      "source": "https://wiki.nikepai.com/api/wiki/getBanshuaiqi",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/wikipedia-core-scale.json",
+      "bytes": 24272,
+      "sha256": "f64614679431cc3ac069c7e6849bdf496c3fdf2fd34157d7bf4e8fdbf59b39ec",
+      "chart": "snapshot-wikipedia-core-scale",
+      "source": "https://wiki.nikepai.com/api/wiki/getArticlesTotalByCoreNew_v5",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/wikipedia-directed-distance.json",
+      "bytes": 7203,
+      "sha256": "ab928284a3ec6b3a3fcf320d30c978bdfcb69406c5021e3fadfac121648ac131",
+      "chart": "snapshot-wikipedia-directed-distance",
+      "source": "https://wiki.nikepai.com/api/goapi/smallworld/directedByYear",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/wikipedia-disruption-filter.json",
+      "bytes": 2833,
+      "sha256": "dacadbcbc449af4d7662f2f4f823eb22b137910147f7f7dff834a5b27eb69fae",
+      "chart": "snapshot-wikipedia-disruption-filter",
+      "source": "https://wiki.nikepai.com/api/wiki/getDfd",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/wikipedia-global-evolution.json",
+      "bytes": 72227,
+      "sha256": "a224722fa0502027de9104837e1eb04f740807696727fe8ad5340d93c203eea5",
+      "chart": "snapshot-wikipedia-global-evolution",
+      "source": "https://wiki.nikepai.com/api/wiki/getWikiNiHe",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/wikipedia-reference-patterns.json",
+      "bytes": 7453,
+      "sha256": "08834b8ba98741b4c91a96a1e8dae69da8dec6a639057833485787ea15c8a73d",
+      "chart": "snapshot-wikipedia-reference-patterns",
+      "source": "https://wiki.nikepai.com/api/wiki/getWikiRefTjData",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/wikipedia-self-citation.json",
+      "bytes": 25565,
+      "sha256": "1c6006cdda8e363de647c95977ab969bb1d39ea32fc96d5a491eae2c41b344d0",
+      "chart": "snapshot-wikipedia-self-citation",
+      "source": "https://wiki.nikepai.com/api/wiki/getWikiRefSelfRate",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/wikipedia-top-articles.json",
+      "bytes": 173745,
+      "sha256": "9a9a6cc66aeba450d7619c6db4fdba21f3e09a8c9de115bce4967ca4fc815d74",
+      "chart": "snapshot-wikipedia-top-articles",
+      "source": "https://wiki.nikepai.com/api/wiki/getTopArticles",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/wikipedia-words-links.json",
+      "bytes": 75005,
+      "sha256": "308d7b26674a3d5fe6be3fabb4adfa88bbb988600d4dc3e31d843828d8d3e406",
+      "chart": "snapshot-wikipedia-words-links",
+      "source": "https://wiki.nikepai.com/api/wiki/getXueke_words_linksout",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/snapshots/wm-network-scale.json",
+      "bytes": 10297,
+      "sha256": "fc275eb8aae3e100d2d9b995a92bd65f5993e4649fc760e8f66cd0dfcf506b4c",
+      "chart": "snapshot-wm-network-scale",
+      "source": "https://wiki.nikepai.com/api/wiki/getWikiAndMagCountByYear",
+      "transform": "Build-time API export; response normalized into selectable static variants."
+    },
+    {
+      "file": "data/wikipedia-article-count.json",
+      "bytes": 93450,
+      "sha256": "f52963b3e432389dc8a98762ea56f31c58fd9c8d507cc96e2c25d782f9687f21",
+      "chart": "wikipedia-article-count",
+      "source": "https://raw.githubusercontent.com/iwuzhen/subject-relevance/a3b702d1feee9f0bd5c365fee717d885df19a352/src/assets/data/subject_article_count.json",
+      "transform": "Pinned upstream static snapshot; JSON minified without value changes."
+    },
+    {
+      "file": "data/wikipedia-degree-entropy-lv2.json",
+      "bytes": 20225,
+      "sha256": "711c45866f575d3745e9af78437db2c5affce6babf76bfb8d6765e5e2158491b",
+      "chart": "wikipedia-degree-entropy",
+      "source": "https://raw.githubusercontent.com/iwuzhen/subject-relevance/a3b702d1feee9f0bd5c365fee717d885df19a352/src/assets/data/wikipedia_network_entropy_lv2_log2.json",
+      "transform": "Pinned upstream static snapshot; JSON minified without value changes."
+    },
+    {
+      "file": "data/wikipedia-degree-entropy-lv3.json",
+      "bytes": 20227,
+      "sha256": "607209c465f13e246bb3f4b31e4378fdfae495c3b674e8a15869bf573344d22d",
+      "chart": "wikipedia-degree-entropy",
+      "source": "https://raw.githubusercontent.com/iwuzhen/subject-relevance/a3b702d1feee9f0bd5c365fee717d885df19a352/src/assets/data/wikipedia_network_entropy_lv3_log2.json",
+      "transform": "Pinned upstream static snapshot; JSON minified without value changes."
+    },
+    {
+      "file": "data/wikipedia-network-academic-lv2.json",
+      "bytes": 31239,
+      "sha256": "07d5a23ca45ed6c5c82c890c5d3a1110fea712f060049bd05bb8a2b1ece5d4bb",
+      "chart": "wikipedia-network-profile",
+      "source": "https://raw.githubusercontent.com/iwuzhen/subject-relevance/a3b702d1feee9f0bd5c365fee717d885df19a352/src/assets/data/wikipediaDirectNetWorkXueShu.json",
+      "transform": "Pinned upstream static snapshot; JSON minified without value changes."
+    },
+    {
+      "file": "data/wikipedia-network-academic-lv3.json",
+      "bytes": 32199,
+      "sha256": "48575fcd7df28a5498efb10d264e513da5100a5fa0a9e43452fcf1e07e75d0f4",
+      "chart": "wikipedia-network-profile",
+      "source": "https://raw.githubusercontent.com/iwuzhen/subject-relevance/a3b702d1feee9f0bd5c365fee717d885df19a352/src/assets/data/wikipediaDirectNetWorkXueShuLV3.json",
+      "transform": "Pinned upstream static snapshot; JSON minified without value changes."
+    },
+    {
+      "file": "data/wikipedia-network-quarter.json",
+      "bytes": 48513,
+      "sha256": "7dc6df002765b9c9d6823c84caf35f6543eb509ea8999f06a112615f1e88dcb0",
+      "chart": "wikipedia-network-profile",
+      "source": "https://raw.githubusercontent.com/iwuzhen/subject-relevance/a3b702d1feee9f0bd5c365fee717d885df19a352/src/assets/data/wikipediaNetwork_Quarter.json",
+      "transform": "Pinned upstream static snapshot; JSON minified without value changes."
+    },
+    {
+      "file": "data/wikipedia-struct-entropy-lv2.json",
+      "bytes": 60419,
+      "sha256": "83e19117162bcb6c9f42c909af69dc7094f78cf66b029ccf878d38662d5eb5cf",
+      "chart": "wikipedia-struct-entropy",
+      "source": "https://raw.githubusercontent.com/iwuzhen/subject-relevance/a3b702d1feee9f0bd5c365fee717d885df19a352/src/assets/data/wikipedia_struct_entropy_lv2_log2.json",
+      "transform": "Pinned upstream static snapshot; JSON minified without value changes."
+    },
+    {
+      "file": "data/wikipedia-struct-entropy-lv3.json",
+      "bytes": 61459,
+      "sha256": "97e32ec9202e3ad36241bbf60f91871b2c9485bf9859b291d1f3616a5e5d0ec1",
+      "chart": "wikipedia-struct-entropy",
+      "source": "https://raw.githubusercontent.com/iwuzhen/subject-relevance/a3b702d1feee9f0bd5c365fee717d885df19a352/src/assets/data/wikipedia_struct_entropy_lv3_log2.json",
+      "transform": "Pinned upstream static snapshot; JSON minified without value changes."
+    },
+    {
+      "file": "data/wikipedia-subject-network.json",
+      "bytes": 1115,
+      "sha256": "cce71f2a38cc29231b02c67a7f0f755eefe0097d47f172ec853f2f37ea2945bc",
+      "chart": "wikipedia-subject-network",
+      "source": "subject-revelance-super/src/views/demo/wm/wikipedia-subject-algorithm-tree.vue",
+      "transform": "Top-level subject nodes and minimum spanning-tree links retained; editor state removed."
+    },
+    {
+      "file": "data/wm/connected-papers.json",
+      "bytes": 23022,
+      "sha256": "450cb514dfbe9144a1c1093cb517af22af53dc0c248914c0ce8d78d10c172b93",
+      "chart": "wm-disruption",
+      "source": "https://wiki.nikepai.com/v2/static/data/wm/connect-graph-subject-paper-count.json",
+      "transform": "Legacy database-derived snapshot; JSON minified without value changes."
+    },
+    {
+      "file": "data/wm/disruption.json",
+      "bytes": 46239,
+      "sha256": "f499f2d8d74bda7330ab154ef134ea43e245177471a7a70599a74ea54f890918",
+      "chart": "wm-disruption",
+      "source": "https://wiki.nikepai.com/v2/static/data/wm/average-disrution.json",
+      "transform": "Legacy database-derived snapshot; JSON minified without value changes."
+    }
+  ],
+  "warnings": [
+    "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/genetic_engineering.json: 200, 0 bytes; omitted",
+    "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/deep_learning.json: 200, 0 bytes; omitted",
+    "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/industrial_engineering.json: 200, 0 bytes; omitted",
+    "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/quantum_computer.json: 200, 0 bytes; omitted",
+    "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/chemical_engineering.json: 200, 0 bytes; omitted",
+    "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/theoretical_computer_science.json: 200, 0 bytes; omitted",
+    "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/computer_engineering.json: 200, 0 bytes; omitted",
+    "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/civil_engineering.json: 200, 0 bytes; omitted",
+    "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/blockchains.json: 200, 0 bytes; omitted",
+    "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/environmental_engineering.json: 200, 0 bytes; omitted",
+    "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/genome_editing.json: 200, 0 bytes; omitted",
+    "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/machine_learning.json: 200, 0 bytes; omitted",
+    "https://wiki.nikepai.com/v2/static/data/openalex/entropy/structEntropy/biological_engineering.json: 200, 0 bytes; omitted"
+  ]
+}
